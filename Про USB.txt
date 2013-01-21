@@ -1,4 +1,3 @@
-Как сделать USB-устройство
 http://habrahabr.ru/post/106420/#habracut
 
 USBTiny
@@ -10,13 +9,13 @@ http://ru.wikipedia.org/wiki/V-USB
 AVR w/out crystall
 http://www.obdev.at/products/vusb/easylogger.html
 
-AVR с бутлоадером через USB
+AVR usb С‚РѕРєРµРЅ
 http://code.google.com/p/opencryptotoken/
 
 
-Чипы: 
+USB СЃС…РµРјС‹: 
 
-AT90USB162  290р (270-250р)
-LPC2132FBD 310р (280 - 220р)
-STM32F103  240р (170р)
-ATmega16U4-AU 140 (110р)
+AT90USB162  290СЂ (270-250СЂ)
+LPC2132FBD 310СЂ (280 - 220СЂ)
+STM32F103  240СЂ (170СЂ)
+ATmega16U4-AU 140 (110СЂ)
