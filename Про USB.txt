@@ -1,0 +1,22 @@
+Как сделать USB-устройство
+http://habrahabr.ru/post/106420/#habracut
+
+USBTiny
+http://dicks.home.xs4all.nl/avr/usbtiny/
+
+V-USB
+http://ru.wikipedia.org/wiki/V-USB
+
+AVR w/out crystall
+http://www.obdev.at/products/vusb/easylogger.html
+
+AVR с бутлоадером через USB
+http://code.google.com/p/opencryptotoken/
+
+
+Чипы: 
+
+AT90USB162  290р (270-250р)
+LPC2132FBD 310р (280 - 220р)
+STM32F103  240р (170р)
+ATmega16U4-AU 140 (110р)
