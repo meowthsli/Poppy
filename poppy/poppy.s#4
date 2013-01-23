@@ -14581,7 +14581,7 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="ISP" gate="1" pin="2"/>
 <wire x1="33.02" y1="83.82" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
-<label x="27.94" y="83.82" size="1.778" layer="95"/>
+<label x="25.4" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="VCC1" gate="VCC" pin="VCC"/>
@@ -14664,6 +14664,7 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="ISP" gate="1" pin="6"/>
 <wire x1="33.02" y1="88.9" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
+<label x="25.4" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -14673,9 +14674,9 @@ Source: www.kingbright.com</description>
 <label x="-7.62" y="76.2" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="ISP" gate="1" pin="3"/>
-<wire x1="48.26" y1="86.36" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
-<label x="48.26" y="86.36" size="1.778" layer="95"/>
+<pinref part="ISP" gate="1" pin="5"/>
+<wire x1="48.26" y1="88.9" x2="60.96" y2="88.9" width="0.1524" layer="91"/>
+<label x="48.26" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -14692,7 +14693,7 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="ISP" gate="1" pin="4"/>
 <wire x1="33.02" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
-<label x="27.94" y="86.36" size="1.778" layer="95"/>
+<label x="25.4" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="CLK"/>
@@ -14739,9 +14740,9 @@ Source: www.kingbright.com</description>
 <label x="30.48" y="55.88" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="ISP" gate="1" pin="5"/>
-<wire x1="48.26" y1="88.9" x2="60.96" y2="88.9" width="0.1524" layer="91"/>
-<label x="48.26" y="88.9" size="1.778" layer="95"/>
+<pinref part="ISP" gate="1" pin="3"/>
+<wire x1="48.26" y1="86.36" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
+<label x="48.26" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">

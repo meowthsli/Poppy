@@ -14662,9 +14662,8 @@ Source: www.kingbright.com</description>
 <junction x="-63.5" y="86.36"/>
 </segment>
 <segment>
-<pinref part="ISP" gate="1" pin="5"/>
-<wire x1="48.26" y1="88.9" x2="60.96" y2="88.9" width="0.1524" layer="91"/>
-<label x="48.26" y="88.9" size="1.778" layer="95"/>
+<pinref part="ISP" gate="1" pin="6"/>
+<wire x1="33.02" y1="88.9" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -14740,9 +14739,9 @@ Source: www.kingbright.com</description>
 <label x="30.48" y="55.88" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="ISP" gate="1" pin="6"/>
-<wire x1="33.02" y1="88.9" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
-<label x="25.4" y="88.9" size="1.778" layer="95"/>
+<pinref part="ISP" gate="1" pin="5"/>
+<wire x1="48.26" y1="88.9" x2="60.96" y2="88.9" width="0.1524" layer="91"/>
+<label x="48.26" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">

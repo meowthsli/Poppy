@@ -14358,6 +14358,9 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
+<frame x1="-208.28" y1="-38.1" x2="106.68" y2="134.62" columns="8" rows="5" layer="94"/>
+<text x="-195.58" y="116.84" size="1.778" layer="94" font="vector">Poppy Keyboard Backlight
+Version 0</text>
 </plain>
 <instances>
 <instance part="EDGE" gate="G$1" x="-157.48" y="45.72" smashed="yes">
@@ -14787,4 +14790,10 @@ Source: www.kingbright.com</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

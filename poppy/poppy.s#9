@@ -14354,6 +14354,7 @@ Source: www.kingbright.com</description>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="C2" library="resistor" deviceset="CPOL-EU" device="150CLZ-0810" value="47u"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
+<part name="GND1" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14429,6 +14430,7 @@ Source: www.kingbright.com</description>
 <attribute name="VALUE" x="-97.663" y="93.4974" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND11" gate="1" x="-96.52" y="86.36"/>
+<instance part="GND1" gate="1" x="-114.3" y="55.88"/>
 </instances>
 <busses>
 <bus name="D+,D-">
@@ -14550,6 +14552,13 @@ Source: www.kingbright.com</description>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="C2" gate="G$1" pin="-"/>
 <wire x1="-96.52" y1="88.9" x2="-96.52" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="EDGE" gate="G$1" pin="GND-18"/>
+<wire x1="-121.92" y1="60.96" x2="-114.3" y2="60.96" width="0.1524" layer="91"/>
+<label x="-121.92" y="60.96" size="1.778" layer="95"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="-114.3" y1="60.96" x2="-114.3" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -14773,11 +14782,6 @@ Source: www.kingbright.com</description>
 </segment>
 </net>
 <net name="GND18" class="0">
-<segment>
-<pinref part="EDGE" gate="G$1" pin="GND-18"/>
-<wire x1="-121.92" y1="60.96" x2="-114.3" y2="60.96" width="0.1524" layer="91"/>
-<label x="-121.92" y="60.96" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="-96.52" y1="50.8" x2="-96.52" y2="45.72" width="0.1524" layer="91"/>

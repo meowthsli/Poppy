@@ -14556,11 +14556,6 @@ Source: www.kingbright.com</description>
 <wire x1="-81.28" y1="50.8" x2="-81.28" y2="45.72" width="0.1524" layer="91"/>
 <label x="-83.82" y="43.18" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="ISP" gate="1" pin="6"/>
-<wire x1="33.02" y1="88.9" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
-<label x="25.4" y="88.9" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
