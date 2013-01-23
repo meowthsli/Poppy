@@ -8789,7 +8789,7 @@ Source: www.kingbright.com</description>
 <part name="U2" library="_LedDrivers" deviceset="MBI5039" device="SOP24-300-1.00" value="MBI5039"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="VCC2" library="supply1" deviceset="VCC" device=""/>
-<part name="C4" library="resistor" deviceset="C-EU" device="C1206K" value="22p"/>
+<part name="C4" library="resistor" deviceset="C-EU" device="C1206K" value="100n"/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="R1206" value="10k"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>

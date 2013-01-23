@@ -8790,7 +8790,7 @@ Source: www.kingbright.com</description>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="VCC2" library="supply1" deviceset="VCC" device=""/>
 <part name="C4" library="resistor" deviceset="C-EU" device="C1206K" value="100n"/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="R1206" value="10k"/>
+<part name="R2" library="resistor" deviceset="R-EU_" device="R1206" value="3k9"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="LED2" library="_led-rgb" deviceset="CON-RGB-LED" device="-EXT"/>

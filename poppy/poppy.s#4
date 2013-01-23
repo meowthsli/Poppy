@@ -14327,7 +14327,7 @@ Source: www.kingbright.com</description>
 </classes>
 <parts>
 <part name="EDGE" library="mini-pci-e" deviceset="FULL-MINI-PCI-E" device="" value=""/>
-<part name="U1" library="at90usb" deviceset="AT90USB162" device="" value=""/>
+<part name="U1" library="at90usb" deviceset="AT90USB162" device="" value="ATUSB"/>
 <part name="Q1" library="crystal" deviceset="CRYSTAL" device="CTS406" value="10MHz"/>
 <part name="C1" library="resistor" deviceset="C-EU" device="C1206K" value="22p"/>
 <part name="C2" library="resistor" deviceset="C-EU" device="C1206K" value="22p"/>

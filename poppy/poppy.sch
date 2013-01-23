@@ -14331,8 +14331,6 @@ Source: www.kingbright.com</description>
 <part name="Q1" library="crystal" deviceset="CRYSTAL" device="CTS406" value="10MHz"/>
 <part name="C3" library="resistor" deviceset="C-EU" device="C1206K" value="22p"/>
 <part name="C4" library="resistor" deviceset="C-EU" device="C1206K" value="22p"/>
-<part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C5" library="resistor" deviceset="C-EU" device="C1206K" value="4u7"/>
@@ -14378,8 +14376,6 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="-82.804" y="58.039" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-82.804" y="52.959" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND1" gate="1" x="-81.28" y="45.72"/>
-<instance part="GND2" gate="1" x="-96.52" y="45.72"/>
 <instance part="GND6" gate="1" x="-109.22" y="12.7"/>
 <instance part="GND3" gate="1" x="-63.5" y="12.7"/>
 <instance part="C5" gate="G$1" x="-68.58" y="43.18" smashed="yes">
@@ -14493,16 +14489,6 @@ Source: www.kingbright.com</description>
 </segment>
 </net>
 <net name="GND" class="0">
-<segment>
-<pinref part="C4" gate="G$1" pin="2"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="-81.28" y1="50.8" x2="-81.28" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C3" gate="G$1" pin="2"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="-96.52" y1="50.8" x2="-96.52" y2="48.26" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="EDGE" gate="G$1" pin="GND-50"/>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -14784,6 +14770,23 @@ Source: www.kingbright.com</description>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="-10.16" y1="30.48" x2="-10.16" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GND18" class="0">
+<segment>
+<pinref part="EDGE" gate="G$1" pin="GND-18"/>
+<wire x1="-121.92" y1="60.96" x2="-114.3" y2="60.96" width="0.1524" layer="91"/>
+<label x="-121.92" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="-96.52" y1="50.8" x2="-96.52" y2="45.72" width="0.1524" layer="91"/>
+<label x="-99.06" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="-81.28" y1="50.8" x2="-81.28" y2="45.72" width="0.1524" layer="91"/>
+<label x="-83.82" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
