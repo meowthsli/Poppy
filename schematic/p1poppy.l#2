@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -9465,6 +9465,7 @@ type V526-0, grid 2.5 mm</description>
 <smd name="42" x="-2.4" y="5.35" dx="1" dy="0.45" layer="1" rot="R270"/>
 <smd name="43" x="-3.2" y="5.35" dx="1" dy="0.45" layer="1" rot="R270"/>
 <smd name="44" x="-4" y="5.35" dx="1" dy="0.45" layer="1" rot="R270"/>
+<text x="-3.74" y="-0.705" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.74" y="1.835" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="1.9" y1="4.975" x2="2.9" y2="5.425" layer="51" rot="R270"/>
 <smd name="36" x="2.4" y="5.35" dx="1" dy="0.45" layer="1" rot="R270"/>
@@ -13349,7 +13350,7 @@ Source: www.kingbright.com</description>
 <gate name="U$1" symbol="ATMEGA16U4" x="-2.54" y="0"/>
 </gates>
 <devices>
-<device name="TQFP44" package="ATMEGA16U4_TQFP">
+<device name="1" package="ATMEGA16U4_TQFP">
 <connects>
 <connect gate="U$1" pin="AREF" pad="42"/>
 <connect gate="U$1" pin="AVCC24" pad="24"/>
@@ -13396,9 +13397,6 @@ Source: www.kingbright.com</description>
 <connect gate="U$1" pin="XTAL1" pad="17"/>
 <connect gate="U$1" pin="XTAL2" pad="16"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
 </device>
 </devices>
 </deviceset>

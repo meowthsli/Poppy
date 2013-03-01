@@ -9465,6 +9465,7 @@ type V526-0, grid 2.5 mm</description>
 <smd name="42" x="-2.4" y="5.35" dx="1" dy="0.45" layer="1" rot="R270"/>
 <smd name="43" x="-3.2" y="5.35" dx="1" dy="0.45" layer="1" rot="R270"/>
 <smd name="44" x="-4" y="5.35" dx="1" dy="0.45" layer="1" rot="R270"/>
+<text x="-3.74" y="-0.705" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.74" y="1.835" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="1.9" y1="4.975" x2="2.9" y2="5.425" layer="51" rot="R270"/>
 <smd name="36" x="2.4" y="5.35" dx="1" dy="0.45" layer="1" rot="R270"/>
@@ -9793,38 +9794,38 @@ type V526-0, grid 2.5 mm</description>
 <pin name="PD7" x="15.24" y="-33.02" length="middle" rot="R180"/>
 </symbol>
 <symbol name="MBI5030GF">
-<wire x1="-12.7" y1="22.86" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-20.32" x2="10.16" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-20.32" x2="10.16" y2="22.86" width="0.254" layer="94"/>
-<wire x1="10.16" y1="22.86" x2="-12.7" y2="22.86" width="0.254" layer="94"/>
-<pin name="GCLK" x="-17.78" y="10.16" length="middle"/>
-<pin name="/OUT0" x="15.24" y="20.32" length="middle" rot="R180"/>
-<pin name="/OUT1" x="15.24" y="17.78" length="middle" rot="R180"/>
-<pin name="/OUT2" x="15.24" y="15.24" length="middle" rot="R180"/>
-<pin name="/OUT3" x="15.24" y="12.7" length="middle" rot="R180"/>
-<pin name="/OUT4" x="15.24" y="10.16" length="middle" rot="R180"/>
-<pin name="/OUT5" x="15.24" y="7.62" length="middle" rot="R180"/>
-<pin name="/OUT6" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="/OUT7" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="/OUT8" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="/OUT9" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="/OUT10" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="/OUT11" x="15.24" y="-7.62" length="middle" rot="R180"/>
-<pin name="/OUT12" x="15.24" y="-10.16" length="middle" rot="R180"/>
-<pin name="/OUT13" x="15.24" y="-12.7" length="middle" rot="R180"/>
-<pin name="/OUT14" x="15.24" y="-15.24" length="middle" rot="R180"/>
-<pin name="/OUT15" x="15.24" y="-17.78" length="middle" rot="R180"/>
-<pin name="DCLK" x="-17.78" y="15.24" length="middle"/>
-<pin name="GND" x="-17.78" y="-17.78" length="middle"/>
-<pin name="LE" x="-17.78" y="12.7" length="middle"/>
-<pin name="R-EXT" x="-17.78" y="20.32" length="middle"/>
-<pin name="SDI" x="-17.78" y="17.78" length="middle"/>
-<pin name="SDO" x="-17.78" y="7.62" length="middle"/>
-<pin name="VDD" x="-17.78" y="-5.08" length="middle"/>
-<text x="-12.7" y="24.13" size="1.4224" layer="95">&gt;NAME</text>
-<text x="-12.7" y="-22.86" size="1.4224" layer="96">&gt;VALUE</text>
-<wire x1="-2.54" y1="3.556" x2="-2.54" y2="1.524" width="0.254" layer="94"/>
-<wire x1="-3.556" y1="2.54" x2="-1.524" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-11.61" y1="20.52" x2="-11.61" y2="-22.66" width="0.254" layer="94"/>
+<wire x1="-11.61" y1="-22.66" x2="11.25" y2="-22.66" width="0.254" layer="94"/>
+<wire x1="11.25" y1="-22.66" x2="11.25" y2="20.52" width="0.254" layer="94"/>
+<wire x1="11.25" y1="20.52" x2="-11.61" y2="20.52" width="0.254" layer="94"/>
+<pin name="GCLK" x="-16.69" y="7.82" length="middle"/>
+<pin name="/OUT0" x="16.33" y="17.98" length="middle" rot="R180"/>
+<pin name="/OUT1" x="16.33" y="15.44" length="middle" rot="R180"/>
+<pin name="/OUT2" x="16.33" y="12.9" length="middle" rot="R180"/>
+<pin name="/OUT3" x="16.33" y="10.36" length="middle" rot="R180"/>
+<pin name="/OUT4" x="16.33" y="7.82" length="middle" rot="R180"/>
+<pin name="/OUT5" x="16.33" y="5.28" length="middle" rot="R180"/>
+<pin name="/OUT6" x="16.33" y="2.74" length="middle" rot="R180"/>
+<pin name="/OUT7" x="16.33" y="0.2" length="middle" rot="R180"/>
+<pin name="/OUT8" x="16.33" y="-2.34" length="middle" rot="R180"/>
+<pin name="/OUT9" x="16.33" y="-4.88" length="middle" rot="R180"/>
+<pin name="/OUT10" x="16.33" y="-7.42" length="middle" rot="R180"/>
+<pin name="/OUT11" x="16.33" y="-9.96" length="middle" rot="R180"/>
+<pin name="/OUT12" x="16.33" y="-12.5" length="middle" rot="R180"/>
+<pin name="/OUT13" x="16.33" y="-15.04" length="middle" rot="R180"/>
+<pin name="/OUT14" x="16.33" y="-17.58" length="middle" rot="R180"/>
+<pin name="/OUT15" x="16.33" y="-20.12" length="middle" rot="R180"/>
+<pin name="DCLK" x="-16.69" y="12.9" length="middle"/>
+<pin name="GND" x="-16.69" y="-20.12" length="middle"/>
+<pin name="LE" x="-16.69" y="10.36" length="middle"/>
+<pin name="R-EXT" x="-16.69" y="17.98" length="middle"/>
+<pin name="SDI" x="-16.69" y="15.44" length="middle"/>
+<pin name="SDO" x="-16.69" y="5.28" length="middle"/>
+<pin name="VDD" x="-16.69" y="-7.42" length="middle"/>
+<text x="-11.61" y="21.79" size="1.4224" layer="95">&gt;NAME</text>
+<text x="-11.61" y="-25.2" size="1.4224" layer="96">&gt;VALUE</text>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -13346,55 +13347,55 @@ Source: www.kingbright.com</description>
 </deviceset>
 <deviceset name="ATMEGA16U4">
 <gates>
-<gate name="U$1" symbol="ATMEGA16U4" x="-2.54" y="0"/>
+<gate name="ATMEGA16U4" symbol="ATMEGA16U4" x="-2.54" y="0"/>
 </gates>
 <devices>
-<device name="TQFP44" package="ATMEGA16U4_TQFP">
+<device name="ATMEGA16U4_TQFP" package="ATMEGA16U4_TQFP">
 <connects>
-<connect gate="U$1" pin="AREF" pad="42"/>
-<connect gate="U$1" pin="AVCC24" pad="24"/>
-<connect gate="U$1" pin="AVCC44" pad="44"/>
-<connect gate="U$1" pin="D+" pad="4"/>
-<connect gate="U$1" pin="D-" pad="3"/>
-<connect gate="U$1" pin="GND15" pad="15"/>
-<connect gate="U$1" pin="GND23" pad="23"/>
-<connect gate="U$1" pin="GND35" pad="35"/>
-<connect gate="U$1" pin="GND43" pad="43"/>
-<connect gate="U$1" pin="PB0" pad="8"/>
-<connect gate="U$1" pin="PB1" pad="9"/>
-<connect gate="U$1" pin="PB2" pad="10"/>
-<connect gate="U$1" pin="PB3" pad="11"/>
-<connect gate="U$1" pin="PB4" pad="28"/>
-<connect gate="U$1" pin="PB5" pad="29"/>
-<connect gate="U$1" pin="PB6" pad="30"/>
-<connect gate="U$1" pin="PB7" pad="12"/>
-<connect gate="U$1" pin="PC6" pad="31"/>
-<connect gate="U$1" pin="PC7" pad="32"/>
-<connect gate="U$1" pin="PD0" pad="18"/>
-<connect gate="U$1" pin="PD1" pad="19"/>
-<connect gate="U$1" pin="PD2" pad="20"/>
-<connect gate="U$1" pin="PD3" pad="21"/>
-<connect gate="U$1" pin="PD4" pad="25"/>
-<connect gate="U$1" pin="PD5" pad="22"/>
-<connect gate="U$1" pin="PD6" pad="26"/>
-<connect gate="U$1" pin="PD7" pad="27"/>
-<connect gate="U$1" pin="PE2" pad="33"/>
-<connect gate="U$1" pin="PE6" pad="1"/>
-<connect gate="U$1" pin="PF0" pad="41"/>
-<connect gate="U$1" pin="PF1" pad="40"/>
-<connect gate="U$1" pin="PF4" pad="39"/>
-<connect gate="U$1" pin="PF5" pad="38"/>
-<connect gate="U$1" pin="PF6" pad="37"/>
-<connect gate="U$1" pin="PF7" pad="36"/>
-<connect gate="U$1" pin="RESET" pad="13"/>
-<connect gate="U$1" pin="UCAP" pad="6"/>
-<connect gate="U$1" pin="UGND" pad="5"/>
-<connect gate="U$1" pin="UVCC" pad="2"/>
-<connect gate="U$1" pin="VBUS" pad="7"/>
-<connect gate="U$1" pin="VCC14" pad="14"/>
-<connect gate="U$1" pin="VCC34" pad="34"/>
-<connect gate="U$1" pin="XTAL1" pad="17"/>
-<connect gate="U$1" pin="XTAL2" pad="16"/>
+<connect gate="ATMEGA16U4" pin="AREF" pad="42"/>
+<connect gate="ATMEGA16U4" pin="AVCC24" pad="24"/>
+<connect gate="ATMEGA16U4" pin="AVCC44" pad="44"/>
+<connect gate="ATMEGA16U4" pin="D+" pad="4"/>
+<connect gate="ATMEGA16U4" pin="D-" pad="3"/>
+<connect gate="ATMEGA16U4" pin="GND15" pad="15"/>
+<connect gate="ATMEGA16U4" pin="GND23" pad="23"/>
+<connect gate="ATMEGA16U4" pin="GND35" pad="35"/>
+<connect gate="ATMEGA16U4" pin="GND43" pad="43"/>
+<connect gate="ATMEGA16U4" pin="PB0" pad="8"/>
+<connect gate="ATMEGA16U4" pin="PB1" pad="9"/>
+<connect gate="ATMEGA16U4" pin="PB2" pad="10"/>
+<connect gate="ATMEGA16U4" pin="PB3" pad="11"/>
+<connect gate="ATMEGA16U4" pin="PB4" pad="28"/>
+<connect gate="ATMEGA16U4" pin="PB5" pad="29"/>
+<connect gate="ATMEGA16U4" pin="PB6" pad="30"/>
+<connect gate="ATMEGA16U4" pin="PB7" pad="12"/>
+<connect gate="ATMEGA16U4" pin="PC6" pad="31"/>
+<connect gate="ATMEGA16U4" pin="PC7" pad="32"/>
+<connect gate="ATMEGA16U4" pin="PD0" pad="18"/>
+<connect gate="ATMEGA16U4" pin="PD1" pad="19"/>
+<connect gate="ATMEGA16U4" pin="PD2" pad="20"/>
+<connect gate="ATMEGA16U4" pin="PD3" pad="21"/>
+<connect gate="ATMEGA16U4" pin="PD4" pad="25"/>
+<connect gate="ATMEGA16U4" pin="PD5" pad="22"/>
+<connect gate="ATMEGA16U4" pin="PD6" pad="26"/>
+<connect gate="ATMEGA16U4" pin="PD7" pad="27"/>
+<connect gate="ATMEGA16U4" pin="PE2" pad="33"/>
+<connect gate="ATMEGA16U4" pin="PE6" pad="1"/>
+<connect gate="ATMEGA16U4" pin="PF0" pad="41"/>
+<connect gate="ATMEGA16U4" pin="PF1" pad="40"/>
+<connect gate="ATMEGA16U4" pin="PF4" pad="39"/>
+<connect gate="ATMEGA16U4" pin="PF5" pad="38"/>
+<connect gate="ATMEGA16U4" pin="PF6" pad="37"/>
+<connect gate="ATMEGA16U4" pin="PF7" pad="36"/>
+<connect gate="ATMEGA16U4" pin="RESET" pad="13"/>
+<connect gate="ATMEGA16U4" pin="UCAP" pad="6"/>
+<connect gate="ATMEGA16U4" pin="UGND" pad="5"/>
+<connect gate="ATMEGA16U4" pin="UVCC" pad="2"/>
+<connect gate="ATMEGA16U4" pin="VBUS" pad="7"/>
+<connect gate="ATMEGA16U4" pin="VCC14" pad="14"/>
+<connect gate="ATMEGA16U4" pin="VCC34" pad="34"/>
+<connect gate="ATMEGA16U4" pin="XTAL1" pad="17"/>
+<connect gate="ATMEGA16U4" pin="XTAL2" pad="16"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13404,35 +13405,35 @@ Source: www.kingbright.com</description>
 </deviceset>
 <deviceset name="MBI5030GF">
 <gates>
-<gate name="MBI5030" symbol="MBI5030GF" x="-2.54" y="0"/>
+<gate name="MBI5030GF" symbol="MBI5030GF" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SOP-24" package="_LEDDRIVERS_SOP24-300-1.00">
+<device name="SOP24" package="_LEDDRIVERS_SOP24-300-1.00">
 <connects>
-<connect gate="MBI5030" pin="/OUT0" pad="5"/>
-<connect gate="MBI5030" pin="/OUT1" pad="6"/>
-<connect gate="MBI5030" pin="/OUT10" pad="15"/>
-<connect gate="MBI5030" pin="/OUT11" pad="16"/>
-<connect gate="MBI5030" pin="/OUT12" pad="17"/>
-<connect gate="MBI5030" pin="/OUT13" pad="18"/>
-<connect gate="MBI5030" pin="/OUT14" pad="19"/>
-<connect gate="MBI5030" pin="/OUT15" pad="20"/>
-<connect gate="MBI5030" pin="/OUT2" pad="7"/>
-<connect gate="MBI5030" pin="/OUT3" pad="8"/>
-<connect gate="MBI5030" pin="/OUT4" pad="9"/>
-<connect gate="MBI5030" pin="/OUT5" pad="10"/>
-<connect gate="MBI5030" pin="/OUT6" pad="11"/>
-<connect gate="MBI5030" pin="/OUT7" pad="12"/>
-<connect gate="MBI5030" pin="/OUT8" pad="13"/>
-<connect gate="MBI5030" pin="/OUT9" pad="14"/>
-<connect gate="MBI5030" pin="DCLK" pad="3"/>
-<connect gate="MBI5030" pin="GCLK" pad="21"/>
-<connect gate="MBI5030" pin="GND" pad="1"/>
-<connect gate="MBI5030" pin="LE" pad="4"/>
-<connect gate="MBI5030" pin="R-EXT" pad="23"/>
-<connect gate="MBI5030" pin="SDI" pad="2"/>
-<connect gate="MBI5030" pin="SDO" pad="22"/>
-<connect gate="MBI5030" pin="VDD" pad="24"/>
+<connect gate="MBI5030GF" pin="/OUT0" pad="5"/>
+<connect gate="MBI5030GF" pin="/OUT1" pad="6"/>
+<connect gate="MBI5030GF" pin="/OUT10" pad="15"/>
+<connect gate="MBI5030GF" pin="/OUT11" pad="16"/>
+<connect gate="MBI5030GF" pin="/OUT12" pad="17"/>
+<connect gate="MBI5030GF" pin="/OUT13" pad="18"/>
+<connect gate="MBI5030GF" pin="/OUT14" pad="19"/>
+<connect gate="MBI5030GF" pin="/OUT15" pad="20"/>
+<connect gate="MBI5030GF" pin="/OUT2" pad="7"/>
+<connect gate="MBI5030GF" pin="/OUT3" pad="8"/>
+<connect gate="MBI5030GF" pin="/OUT4" pad="9"/>
+<connect gate="MBI5030GF" pin="/OUT5" pad="10"/>
+<connect gate="MBI5030GF" pin="/OUT6" pad="11"/>
+<connect gate="MBI5030GF" pin="/OUT7" pad="12"/>
+<connect gate="MBI5030GF" pin="/OUT8" pad="13"/>
+<connect gate="MBI5030GF" pin="/OUT9" pad="14"/>
+<connect gate="MBI5030GF" pin="DCLK" pad="3"/>
+<connect gate="MBI5030GF" pin="GCLK" pad="21"/>
+<connect gate="MBI5030GF" pin="GND" pad="1"/>
+<connect gate="MBI5030GF" pin="LE" pad="4"/>
+<connect gate="MBI5030GF" pin="R-EXT" pad="23"/>
+<connect gate="MBI5030GF" pin="SDI" pad="2"/>
+<connect gate="MBI5030GF" pin="SDO" pad="22"/>
+<connect gate="MBI5030GF" pin="VDD" pad="24"/>
 </connects>
 <technologies>
 <technology name=""/>
