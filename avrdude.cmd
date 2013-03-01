@@ -1,0 +1,1 @@
+avrdude -c avr910 -b 9600 -P COM3 -p AT90usb162 -n -F -U flash:r:main.hex:i
