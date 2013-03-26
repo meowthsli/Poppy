@@ -9074,11 +9074,6 @@ Version 1</text>
 </net>
 <net name="VCC" class="0">
 <segment>
-<wire x1="-55.88" y1="25.4" x2="-68.58" y2="25.4" width="0.1524" layer="91"/>
-<label x="-68.58" y="22.86" size="1.778" layer="95"/>
-<pinref part="U1" gate="U$1" pin="UVCC"/>
-</segment>
-<segment>
 <pinref part="ISP" gate="1" pin="2"/>
 <wire x1="43.18" y1="83.82" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
 <label x="35.56" y="83.82" size="1.778" layer="95"/>
@@ -9141,6 +9136,16 @@ Version 1</text>
 <pinref part="LED3" gate="G$1" pin="VCC"/>
 <wire x1="93.98" y1="45.72" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
 <junction x="93.98" y="53.34"/>
+</segment>
+<segment>
+<pinref part="U1" gate="U$1" pin="UCAP"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="-55.88" y1="45.72" x2="-73.66" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="45.72" x2="-73.66" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="45.72" x2="-73.66" y2="53.34" width="0.1524" layer="91"/>
+<junction x="-73.66" y="45.72"/>
+<label x="-78.74" y="53.34" size="1.778" layer="95"/>
+<wire x1="-73.66" y1="53.34" x2="-78.74" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -9270,14 +9275,6 @@ Version 1</text>
 <wire x1="30.48" y1="66.04" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U2" gate="MBI5030" pin="R-EXT"/>
 <wire x1="30.48" y1="55.88" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="U1" gate="U$1" pin="UCAP"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="-55.88" y1="45.72" x2="-73.66" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="-73.66" y1="45.72" x2="-73.66" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
